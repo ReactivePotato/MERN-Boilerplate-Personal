@@ -8,6 +8,7 @@
     "watch:server": "nodemon server/server.js"
   },
   "dependencies": {
+    "babel": "^6.23.0",
     "express": "^4.17.2",
     "nodemon": "^2.0.15",
     "react": "^17.0.2",
