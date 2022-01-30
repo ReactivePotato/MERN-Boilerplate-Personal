@@ -1,7 +1,9 @@
 import React from "react";
 
 const Root = () => {
-    return <div>This is Root Component</div>
+	return <div>
+		<h1>This is Root Component</h1>
+	</div>
 }
 
 export default Root
