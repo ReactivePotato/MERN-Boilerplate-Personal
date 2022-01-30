@@ -2,7 +2,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import { resolve } from 'path'
 
-const __dirname = process.cmd()
+const __dirname = process.cwd()
 
 const config = {
 	entry: './client/main.jsx',
@@ -22,7 +22,7 @@ const config = {
 				use: {
 					loader: 'babel-loader',
 					options: {
-						preset:['@babel/preset-env']
+						presets: ['@babel/preset-env']
 					}
 				}
 			},
